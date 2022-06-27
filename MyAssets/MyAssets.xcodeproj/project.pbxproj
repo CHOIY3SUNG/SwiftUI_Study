@@ -11,6 +11,7 @@
 		06E39C2D286892970072388F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E39C2C286892970072388F /* ContentView.swift */; };
 		06E39C2F286892980072388F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06E39C2E286892980072388F /* Assets.xcassets */; };
 		06E39C32286892980072388F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06E39C31286892980072388F /* Preview Assets.xcassets */; };
+		06E39C392869DAED0072388F /* NavigationBarWithButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E39C382869DAED0072388F /* NavigationBarWithButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		06E39C2C286892970072388F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		06E39C2E286892980072388F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06E39C31286892980072388F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		06E39C382869DAED0072388F /* NavigationBarWithButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarWithButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				06E39C2A286892970072388F /* MyAssetsApp.swift */,
 				06E39C2C286892970072388F /* ContentView.swift */,
+				06E39C382869DAED0072388F /* NavigationBarWithButton.swift */,
 				06E39C2E286892980072388F /* Assets.xcassets */,
 				06E39C30286892980072388F /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06E39C392869DAED0072388F /* NavigationBarWithButton.swift in Sources */,
 				06E39C2D286892970072388F /* ContentView.swift in Sources */,
 				06E39C2B286892970072388F /* MyAssetsApp.swift in Sources */,
 			);
