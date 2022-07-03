@@ -11,6 +11,11 @@
 		0669ECF62871DE6D00F0A575 /* AssetMenuButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0669ECF52871DE6D00F0A575 /* AssetMenuButtonStyle.swift */; };
 		0669ECF82871E1B500F0A575 /* AssetMenuGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0669ECF72871E1B500F0A575 /* AssetMenuGridView.swift */; };
 		0669ECFA2871E3F400F0A575 /* AssetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0669ECF92871E3F400F0A575 /* AssetView.swift */; };
+		0669ECFE287207E900F0A575 /* AssetBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0669ECFD287207E900F0A575 /* AssetBanner.swift */; };
+		0669ED012872084200F0A575 /* BannerCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0669ED002872084200F0A575 /* BannerCard.swift */; };
+		0669ED042872099C00F0A575 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0669ED032872099C00F0A575 /* PageViewController.swift */; };
+		0669ED062872194100F0A575 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0669ED052872194100F0A575 /* PageControl.swift */; };
+		0669ED0828721B9000F0A575 /* AssetBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0669ED0728721B9000F0A575 /* AssetBannerView.swift */; };
 		06E39C2B286892970072388F /* MyAssetsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E39C2A286892970072388F /* MyAssetsApp.swift */; };
 		06E39C2D286892970072388F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E39C2C286892970072388F /* ContentView.swift */; };
 		06E39C2F286892980072388F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06E39C2E286892980072388F /* Assets.xcassets */; };
@@ -23,6 +28,11 @@
 		0669ECF52871DE6D00F0A575 /* AssetMenuButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetMenuButtonStyle.swift; sourceTree = "<group>"; };
 		0669ECF72871E1B500F0A575 /* AssetMenuGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetMenuGridView.swift; sourceTree = "<group>"; };
 		0669ECF92871E3F400F0A575 /* AssetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetView.swift; sourceTree = "<group>"; };
+		0669ECFD287207E900F0A575 /* AssetBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetBanner.swift; sourceTree = "<group>"; };
+		0669ED002872084200F0A575 /* BannerCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCard.swift; sourceTree = "<group>"; };
+		0669ED032872099C00F0A575 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		0669ED052872194100F0A575 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
+		0669ED0728721B9000F0A575 /* AssetBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetBannerView.swift; sourceTree = "<group>"; };
 		06E39C27286892970072388F /* MyAssets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAssets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06E39C2A286892970072388F /* MyAssetsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAssetsApp.swift; sourceTree = "<group>"; };
 		06E39C2C286892970072388F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -42,6 +52,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0669ECFF287207F300F0A575 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				0669ECF32871DC2100F0A575 /* AssetMenu.swift */,
+				0669ECFD287207E900F0A575 /* AssetBanner.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		0669ED022872086200F0A575 /* AssetMenu */ = {
+			isa = PBXGroup;
+			children = (
+				0669ED0928721BAA00F0A575 /* AssetBannerView */,
+				0669ECF72871E1B500F0A575 /* AssetMenuGridView.swift */,
+				0669ECF52871DE6D00F0A575 /* AssetMenuButtonStyle.swift */,
+			);
+			path = AssetMenu;
+			sourceTree = "<group>";
+		};
+		0669ED0928721BAA00F0A575 /* AssetBannerView */ = {
+			isa = PBXGroup;
+			children = (
+				0669ED0728721B9000F0A575 /* AssetBannerView.swift */,
+				0669ED002872084200F0A575 /* BannerCard.swift */,
+				0669ED052872194100F0A575 /* PageControl.swift */,
+				0669ED032872099C00F0A575 /* PageViewController.swift */,
+			);
+			path = AssetBannerView;
+			sourceTree = "<group>";
+		};
 		06E39C1E286892970072388F = {
 			isa = PBXGroup;
 			children = (
@@ -64,10 +104,9 @@
 				06E39C2A286892970072388F /* MyAssetsApp.swift */,
 				06E39C2C286892970072388F /* ContentView.swift */,
 				06E39C382869DAED0072388F /* NavigationBarWithButton.swift */,
-				0669ECF32871DC2100F0A575 /* AssetMenu.swift */,
-				0669ECF72871E1B500F0A575 /* AssetMenuGridView.swift */,
 				0669ECF92871E3F400F0A575 /* AssetView.swift */,
-				0669ECF52871DE6D00F0A575 /* AssetMenuButtonStyle.swift */,
+				0669ECFF287207F300F0A575 /* Entities */,
+				0669ED022872086200F0A575 /* AssetMenu */,
 				06E39C2E286892980072388F /* Assets.xcassets */,
 				06E39C30286892980072388F /* Preview Content */,
 			);
@@ -153,11 +192,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				0669ECF82871E1B500F0A575 /* AssetMenuGridView.swift in Sources */,
+				0669ED042872099C00F0A575 /* PageViewController.swift in Sources */,
 				06E39C392869DAED0072388F /* NavigationBarWithButton.swift in Sources */,
+				0669ECFE287207E900F0A575 /* AssetBanner.swift in Sources */,
 				0669ECFA2871E3F400F0A575 /* AssetView.swift in Sources */,
 				06E39C2D286892970072388F /* ContentView.swift in Sources */,
 				06E39C2B286892970072388F /* MyAssetsApp.swift in Sources */,
 				0669ECF42871DC2100F0A575 /* AssetMenu.swift in Sources */,
+				0669ED062872194100F0A575 /* PageControl.swift in Sources */,
+				0669ED0828721B9000F0A575 /* AssetBannerView.swift in Sources */,
+				0669ED012872084200F0A575 /* BannerCard.swift in Sources */,
 				0669ECF62871DE6D00F0A575 /* AssetMenuButtonStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
