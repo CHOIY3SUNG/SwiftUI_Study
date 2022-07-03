@@ -13,19 +13,21 @@ struct NavigationBarWithButton: ViewModifier {
         return content
             .navigationBarItems(
                 leading: Text(title)
-                    .font(.system(size: 24, weight: .bold)),
+                    .font(.system(size: 24, weight: .bold))
+                    .padding(),
                 trailing: Button(
                     action: {
                         print("자산추가버튼 tapped")
                     },
                     label: {
                         Image(systemName: "plus")
+                            .font(.system(size:12))
                         Text("자산추가")
-                            .font(.system(size: 12))
+                            .font(.system(size:12))
                     }
                 )
                 .accentColor(.black)
-                .padding(EdgeInsets(top: 8, leading: 8, bottom: 8, trailing: 8))
+                .padding(EdgeInsets(top: 3, leading: 3, bottom: 3, trailing: 5))
                 .overlay(
                     RoundedRectangle(cornerRadius: 10)
                         .stroke(Color.black)
@@ -46,11 +48,17 @@ struct NavigationBarWithButton: ViewModifier {
     }
 }
 
+extension View {
+    func navigationBarWithButtonStyle(_ title: String) -> some View {
+        return self.modifier(NavigationBarWithButton(title: title))
+    }
+}
+
 struct NavigationBarWithButton_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
             Color.gray.edgesIgnoringSafeArea(.all)
-                //.NavigationBarWithButtonStyle
+                .navigationBarWithButtonStyle("내 자산")
         }
     }
 }
