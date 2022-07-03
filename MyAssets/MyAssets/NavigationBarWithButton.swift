@@ -27,7 +27,7 @@ struct NavigationBarWithButton: ViewModifier {
                     }
                 )
                 .accentColor(.black)
-                .padding(EdgeInsets(top: 3, leading: 3, bottom: 3, trailing: 5))
+                .padding(EdgeInsets(top: 3, leading: 3, bottom: 3, trailing: 10))
                 .overlay(
                     RoundedRectangle(cornerRadius: 10)
                         .stroke(Color.black)
@@ -45,7 +45,7 @@ struct NavigationBarWithButton: ViewModifier {
                 UINavigationBar.appearance()
                     .scrollEdgeAppearance = appearance
             }
-    }
+        }
 }
 
 extension View {
