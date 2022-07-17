@@ -19,6 +19,7 @@
 		060DBB702884592100CEF31C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		060DBB722884592100CEF31C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		060DBB752884592100CEF31C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		060DBB7E2884707300CEF31C /* Image-Ex-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Image-Ex-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +52,7 @@
 		060DBB6D2884592100CEF31C /* Image_Ex */ = {
 			isa = PBXGroup;
 			children = (
+				060DBB7E2884707300CEF31C /* Image-Ex-Info.plist */,
 				060DBB6E2884592100CEF31C /* Image_ExApp.swift */,
 				060DBB702884592100CEF31C /* ContentView.swift */,
 				060DBB722884592100CEF31C /* Assets.xcassets */,
@@ -102,7 +104,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 060DBB662884592100CEF31C /* Build configuration list for PBXProject "Mapuser" */;
+			buildConfigurationList = 060DBB662884592100CEF31C /* Build configuration list for PBXProject "Image_Ex" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -270,6 +272,8 @@
 				DEVELOPMENT_TEAM = 989P72HFBW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Image-Ex-Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location to show it on the map";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +303,8 @@
 				DEVELOPMENT_TEAM = 989P72HFBW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Image-Ex-Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location to show it on the map";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -320,7 +326,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		060DBB662884592100CEF31C /* Build configuration list for PBXProject "Mapuser" */ = {
+		060DBB662884592100CEF31C /* Build configuration list for PBXProject "Image_Ex" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				060DBB772884592100CEF31C /* Debug */,
